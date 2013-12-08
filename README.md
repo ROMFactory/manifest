@@ -1,26 +1,26 @@
-	INITIALIZING XenonHD REPOSITORY	
+	INITIALIZING ROMFactory REPOSITORY	
 =======================================
 
 For initializing repo use:
 
-    $ repo init -u https://github.com/TeamHorizon/platform_manifest.git -b kitkat
+    $ repo init -u https://github.com/ROMFactory/platform_manifest.git -b kitkat
 
 Init core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/TeamHorizon/platform_manifest.git -b kitkat	
+    $ repo init -u https://github.com/ROMFactory/platform_manifest.git -b kitkat	
 
-Init repo with all devices, kernels and vendors supported by TeamHorizon:
+Init repo with all devices, kernels and vendors supported by ROMFactory:
 
-    $ repo init -u https://github.com/TeamHorizon/platform_manifest.git -b kitkat -g all,kernel,device,vendor
+    $ repo init -u https://github.com/ROMFactory/platform_manifest.git -b kitkat -g all,kernel,device,vendor
 or 	
 
 Init repo only for a particular device:
 
-    $ repo init -u https://github.com/TeamHorizon/platform_manifest.git -b kitkat -g all,-notdefault,<devicename>,<vendorname>
+    $ repo init -u https://github.com/ROMFactory/platform_manifest.git -b kitkat -g all,-notdefault,<devicename>,<vendorname>
 
 for example, to init only trees needed to build i9300:
 
-    $ repo init -u https://github.com/TeamHorizon/platform_manifest.git -b kitkat -g all,-notdefault,i9300,samsung
+    $ repo init -u https://github.com/ROMFactory/platform_manifest.git -b kitkat -g all,-notdefault,i9300,samsung
 
 sync repo:
 
