@@ -22,7 +22,7 @@
 	     fetch="https://github.com/" />
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
-  <default revision="kitkat-mr1-release"
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
 
