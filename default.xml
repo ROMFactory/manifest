@@ -42,7 +42,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -54,9 +53,9 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="rf" revision="kitkat" groups="notdefault,device,motorola" />
-  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="rf" revision="kitkat" groups="notdefault,device,motorola" />
-  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="rf" revision="kitkat" groups="notdefault,device,xt926" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="rf" revision="kitkat" />
+  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="rf" revision="kitkat" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="rf" revision="kitkat"  />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -156,6 +155,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="Superuser" remote"cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -446,7 +447,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" groups="notdefault,vendor,motorola"  />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/romfactory" name="android_vendor_romfactory" remote="rf" revision="kitkat" />
-  <project name="android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="pc" revision="kitkat" groups="notdefault,vendor,motorola"/>
+  <project name="android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="pc" revision="kitkat" />
 </manifest>
