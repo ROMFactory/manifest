@@ -292,8 +292,6 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="rf" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="rf" revision="kitkat" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="rf" revision="kitkat" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="rf" revision="kitkat" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -430,7 +428,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="android_system_core" remote="rf" revision="kitkat" />
-  <project path="system/extras" name="android_system_extras" remote="rf" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="android_system_media" remote="rf" revision="kitkat" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
