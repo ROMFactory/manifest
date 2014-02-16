@@ -50,7 +50,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="th" revision="kitkat" groups="notdefault,device,hammerhead" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="rf" revision="kitkat" groups="notdefault,device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="notdefault,device,hammerhead" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="kitkat" groups="notdefault,device,motorola" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="th" revision="kitkat" groups="notdefault,device,motorola" />
@@ -339,7 +339,7 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="rf" revision="kitkat" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="rf" revision="kitkat"/>
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="rf" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
@@ -356,7 +356,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="rf" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="th" revision="kitkat" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rf" revision="kitkat" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="rf" revision="kitkat" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omni" revision="android-4.4" />
@@ -433,6 +433,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="pl
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="p
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
